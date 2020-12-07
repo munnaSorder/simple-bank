@@ -1,9 +1,10 @@
 import React from 'react';
+import SignIn from '../SignIn/SignIn';
 
 const Home = () => {
     return (
         <div>
-            <h1 className="btn btn-warning">working..</h1>
+            <SignIn />
         </div>
     );
 };
